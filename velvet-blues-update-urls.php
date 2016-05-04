@@ -6,11 +6,13 @@ Description: This plugin <strong>updates all urls in your website</strong> by re
 Author: VelvetBlues.com
 Author URI: http://www.velvetblues.com/
 Author Email: info@velvetblues.com
-Version: 3.2.4
+Version: 3.2.5
 License: GPLv2 or later
 Text Domain: velvet-blues-update-urls
 */
-/*  Copyright 2015  Velvet Blues Web Design  (email : info@velvetblues.com)
+
+/*  
+Copyright 2015  Velvet Blues Web Design  (email : info@velvetblues.com)
 
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License
