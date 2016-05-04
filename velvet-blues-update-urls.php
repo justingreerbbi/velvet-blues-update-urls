@@ -255,34 +255,34 @@ function VelvetBluesUU_management_page(){
 								<?php _e('posts, pages, custom post types, revisions','velvet-blues-update-urls'); ?>
 								)</label>
 							<br/>
-							<input name="VBUU_update_links[]" type="checkbox" id="VBUU_update_true" value="excerpts" />
-							<label for="VBUU_update_true"><strong>
+							<input name="VBUU_update_links[]" type="checkbox" id="VBUU_update_true1" value="excerpts" />
+							<label for="VBUU_update_true1"><strong>
 								<?php _e('URLs in excerpts','velvet-blues-update-urls'); ?>
 								</strong></label>
 							<br/>
-							<input name="VBUU_update_links[]" type="checkbox" id="VBUU_update_true" value="links" />
-							<label for="VBUU_update_true"><strong>
+							<input name="VBUU_update_links[]" type="checkbox" id="VBUU_update_true2" value="links" />
+							<label for="VBUU_update_true2"><strong>
 								<?php _e('URLs in links','velvet-blues-update-urls'); ?>
 								</strong></label>
 							<br/>
-							<input name="VBUU_update_links[]" type="checkbox" id="VBUU_update_true" value="attachments" />
-							<label for="VBUU_update_true"><strong>
+							<input name="VBUU_update_links[]" type="checkbox" id="VBUU_update_true3" value="attachments" />
+							<label for="VBUU_update_true3"><strong>
 								<?php _e('URLs for attachments','velvet-blues-update-urls'); ?>
 								</strong> (
 								<?php _e('images, documents, general media','velvet-blues-update-urls'); ?>
 								)</label>
 							<br/>
-							<input name="VBUU_update_links[]" type="checkbox" id="VBUU_update_true" value="custom" />
-							<label for="VBUU_update_true"><strong>
+							<input name="VBUU_update_links[]" type="checkbox" id="VBUU_update_true4" value="custom" />
+							<label for="VBUU_update_true4"><strong>
 								<?php _e('URLs in custom fields and meta boxes','velvet-blues-update-urls'); ?>
 								</strong></label>
 							<br/>
-							<input name="VBUU_update_links[]" type="checkbox" id="VBUU_update_true" value="guids" />
-							<label for="VBUU_update_true"><strong>
+							<input name="VBUU_update_links[]" type="checkbox" id="VBUU_update_true5" value="guids" />
+							<label for="VBUU_update_true5"><strong>
 								<?php _e('Update ALL GUIDs','velvet-blues-update-urls'); ?>
 								</strong> <span class="description" style="color:#f00;">
 								<?php _e('GUIDs for posts should only be changed on development sites.','velvet-blues-update-urls'); ?>
-								</span> <a href="http://www.velvetblues.com/go/guids/" target="_blank">
+								</span> <a href="http://codex.wordpress.org/Changing_The_Site_URL#Important_GUID_Note" target="_blank">
 								<?php _e('Learn More.','velvet-blues-update-urls'); ?>
 								</a></label>
 						</p></td>
