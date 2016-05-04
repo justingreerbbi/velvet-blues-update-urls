@@ -93,7 +93,8 @@ function VelvetBluesUU_management_page(){
 	if ( !function_exists( 'VB_unserialize_replace' ) ) {
 		function VB_unserialize_replace( $from = '', $to = '', $data = '', $serialised = false ) {
 			try {
-				if ( is_string( $data ) && ( $unserialized = @unserialize( $data ) ) !== false ) {
+				if ( false !== is_serialized( $data ) ) {
+					$unserialized = unserialize( $data );
 					$data = VB_unserialize_replace( $from, $to, $unserialized, true );
 				}
 				elseif ( is_array( $data ) ) {
